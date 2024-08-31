@@ -1,0 +1,263 @@
+/* 1200px  screen cevice*/
+@media only screen and (max-width: 1200px) {
+    /* header section*/
+    .reward-text h5 {
+        padding-right: 31px;
+        text-align: end;
+    }
+
+    .reward-min-container{
+        margin:30px 0px;
+    }
+
+    /* swiper card */
+    .swipper-card {
+        margin-top: 56px;
+    }
+
+    .dogs-cats-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* hero text*/
+    .hero-text{
+        padding:28px 0px;
+    }
+    /* black cat */
+    img.img-fluid.black-cat {
+        margin-top: 59px;
+    }
+
+    img.ballon {
+        width: 167px;
+    }
+
+   
+}
+@media only screen and (min-width: 1200px) {
+   /* black cat banner */
+    img.ballon {
+        width: 167px;
+    }
+
+}
+
+
+/* 992px screen device*/
+
+@media only screen and (max-width: 992px) {
+    /* heading text*/
+    .reward-text h5 {
+        text-align: center;
+        padding-right: 0;
+    }
+    /* reward img*/
+    .reward-img{
+        margin: 10px 0;
+    }
+
+    .reward-img img:nth-child(3) {
+        width: 65px;
+    }
+    .reward-img img:nth-child(2) {
+        width: 65px;
+    }
+
+    .reward-img img:nth-child(1) {
+        width: 98px;
+        margin-top: -15px;
+    }
+    /* hero text*/
+    .hero-text h2 {
+       font-size: 2rem;
+    }
+
+    /* nav-ham button*/
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .navbar-nav {
+       text-align: center;
+       padding: 25px 0;
+    }
+
+    /* first log dog img*/
+    .blog-text {
+         padding-right: 0; 
+         margin-top: 50px;
+    }
+    .first-blog-img{
+height: 500px;
+    }
+
+    .dog-image {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .first-blog-main-con {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+
+    /* cat banner*/
+    img.ballon {
+        width: 235px;
+    }
+    .annual-text-section{
+        margin-top: 50px;
+      }
+      
+
+    /* swiiper card sec*/
+   .card-swipper-text{
+    margin-top: 80px;
+   }
+   .swipper-card {
+    margin-top: 0px;
+}
+
+
+
+/*good to know*/
+.good-text-sec{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+.good-text-sec p{
+color: white;
+}
+
+/* breast cancer  and livin sec*/
+.cat-sec{
+    display: flex;
+    justify-content: center;
+}
+
+.cat-inside-box {
+    background: rgba(255, 255, 255, 0.17); /* Semi-transparent color for glass effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(238, 233, 238, 0.16);
+}
+.cat-card-col-first{
+    margin-bottom: 15px; 
+}
+/* second blog section*/
+.blog-img2 {
+    justify-items: center;
+    margin-bottom: 180px;
+}
+/* header text sec*/
+.reward-min-container {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.carousel-text p {
+   padding-right: 0;
+}
+
+.wild-img-section{
+    margin:0 10px;
+}
+
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    /* carsouel sec*/
+
+    /* ballon section*/
+    img.ballon {
+        width: 177px;
+    }
+    .carousel1 .owl-stage{
+       margin-top: 0;
+        padding: 0;
+    }
+    .small-text-first-box {
+        border-bottom: 1px solid rgb(200, 195, 195);
+        border-right: 0 ;
+    }
+    /* pet insurances sec*/
+    .pet-main-img{
+        height: 500px;
+    }
+
+.pet-insurance-text{
+    margin-top: 50px;
+}
+
+/* what we cover*/
+.cover-text-second,
+.cover-text-third {
+    padding: 0;
+}
+
+/* double button */
+.button-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-text-third  ul {
+    padding-left: 1rem;
+}
+
+/* we give a shit*/
+.mini-circles-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.shit-icon-text {
+    margin-bottom: 30px;
+}
+/*No ones like a cat-astrophe*/
+.astrophe-img{
+    height: 500px;
+}
+
+/* your'r in good paws */
+.img-mini-container{
+    height: 500px;
+}
+
+  }
+/* mini device */
+  @media only screen and (max-width: 576px){
+    img.ballon {
+        width: 135px;
+    }
+    .shit-small-text P {
+        margin-top:0;
+    }
+
+    /* second blog section*/
+    .blog-text-second h2 {
+        text-align: center;
+    }
+
+    .blog-text-second h5 {
+        text-align: center;
+    }
+
+  }
+
+
